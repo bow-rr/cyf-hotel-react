@@ -11,7 +11,7 @@ const Heading = () => {
             alt="logo"
           />
         
-        <h1> Tower Hotel 高塔酒店</h1>
+        <h1> Tower Hotel 高 塔 酒 店</h1>
         
       </header>
     );
