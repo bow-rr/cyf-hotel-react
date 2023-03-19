@@ -69,8 +69,6 @@ tr {
 /* custom styles */
 
 
-
-
 .card {
   width: 25rem;
   display: flex;
@@ -121,10 +119,13 @@ tr {
 }
 
 .newTrColor {
-  background-color: skyblue;
+  background-color: lightgreen;
 }
 
 
 .button-pointer {
   cursor: pointer;
+  background: aqua;
+  border-radius: 20%;
+  border:3px solid brown;
 }

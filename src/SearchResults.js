@@ -29,7 +29,6 @@ import SearchRow from "./SearchRow";
 //      );
 //     };
 
-
 function SearchResults(props) {
   const tr = props.results.map((element) => (
     <>
@@ -47,9 +46,9 @@ function SearchResults(props) {
             <th scope="col">Last</th>
             <th scope="col">Email</th>
             <th scope="col">Room id</th>
-            <th scope="col">Ckeck in</th>
-            <th scope="col">Ckeck out</th>
-            <th scope="col">Nigths</th>
+            <th scope="col">Check in</th>
+            <th scope="col">Check out</th>
+            <th scope="col">Nights</th>
             <th scope="col">Profile</th>
           </tr>
         </thead>
@@ -58,6 +57,5 @@ function SearchResults(props) {
     </>
   );
 }
-
 
 export default SearchResults;
